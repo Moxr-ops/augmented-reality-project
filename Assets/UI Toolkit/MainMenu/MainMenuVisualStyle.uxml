@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/MainMenuStyle.uss?fileID=7433441132597879392&amp;guid=080f5ae763d68864c949292c9f3fc865&amp;type=3#MainMenuStyle" />
+    <ui:VisualElement name="Container" style="flex-grow: 1; background-color: rgb(212, 212, 212);">
+        <ui:Label tabindex="-1" text="测试" parse-escape-sequences="true" display-tooltip-when-elided="true" class="header" />
+        <ui:Button text="选择模型（.obj）" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ChooseOBJ" class="button" style="top: 25%;" />
+        <ui:Button text="选择追踪图像" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ChooseIMG" class="button" style="top: 25%;" />
+        <ui:Button text="开始" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Start" class="button" style="top: 25%;" />
+    </ui:VisualElement>
+</ui:UXML>

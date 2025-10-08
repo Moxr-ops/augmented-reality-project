@@ -1,0 +1,9 @@
+.slider {
+    align-items: flex-start;
+    width: 39%;
+    -unity-text-align: upper-right;
+    left: 0;
+    font-size: 18px;
+    -unity-font-style: bold;
+    border-top-width: 10px;
+}

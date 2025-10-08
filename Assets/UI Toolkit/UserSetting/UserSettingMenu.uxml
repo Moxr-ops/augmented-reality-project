@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/UserSetting/UserSettingMenu.uss?fileID=7433441132597879392&amp;guid=0949dc46cab842a42999854ae03999ff&amp;type=3#UserSettingMenu" />
+    <ui:VisualElement name="Container" style="flex-grow: 1;">
+        <ui:Slider label="xPos" high-value="5" name="xPos" page-size="0.5" low-value="-5" class="slider" />
+        <ui:Slider label="yPos" high-value="5" name="yPos" page-size="0.5" low-value="-5" class="slider" />
+        <ui:Slider label="zPos" high-value="10" name="zPos" page-size="0.5" low-value="-10" class="slider" />
+        <ui:Slider label="xRot" high-value="360" name="xRot" page-size="0.5" low-value="-360" class="slider" />
+        <ui:Slider label="yRot" high-value="360" name="yRot" page-size="0.5" low-value="-360" class="slider" />
+        <ui:Slider label="zRot" high-value="360" name="zRot" page-size="0.5" low-value="-360" class="slider" />
+        <ui:Slider label="Scale" high-value="5" name="uniformScale" page-size="0.5" low-value="0" class="slider" />
+    </ui:VisualElement>
+</ui:UXML>
