@@ -16,5 +16,11 @@
 - 大文件（&gt;50 MB）用 Git LFS 
 - 不要提交 `Library/`, `Temp/`, `*.tgz`, `.vs/`, 见 `.gitignore`
 
+## 功能
+- [x] 用户选择3d模型与追踪目标图像
+- [x] 用户调整3d模型位置姿态与缩放
+- [ ] 除.obj之外，其他格式3d模型的解析导入
+- [ ] ……
+
 ## 第三方许可
 - Vuforia Engine © PTC Inc. 免费开发许可，详见 [vuforia.com/legal](https://vuforia.com/legal)
